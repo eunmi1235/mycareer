@@ -1,32 +1,38 @@
-
-.clear {clear:both;}
-
 .content2 {
-    margin: 0;
-    padding: 50px 0 0 0;
+    background-color: #f4f4f4;
     width: 100%;
-    background: #f4f4f4;
-    text-align:center;   
+    position: relative;
+    display: block;
+    clear: both;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    float: left;
+    
 }
-
-.content3 {
-    margin: 0;
-    padding: 50px 0 0 0;
-    width: 100%;
-    background: #f4f4f4;
-    text-align:center;    
-}
-
-.product {
+.product {   
     width:1000px;
     margin:0 auto;
-    text-align:center;
-    padding: 80px 0;
+    text-align: center;
+    padding: 60px 0;
 }
 
 .point {
     width: 1000px;
     margin:0 auto;
+    background-color: #f4f4f4;
+}
+.clear {clear: both;
+}
+
+footer {
+    background-color: #f4f4f4;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
 }
 
 .point ul {list-style: none;}
@@ -41,16 +47,3 @@
 .point>ul:nth-child(3)>li {float:left; padding: 0px 49px;}
 .point>ul:nth-child(3)>li:nth-child(1) {padding-left: 0;}
 .point>ul:nth-child(3)>li:nth-child(3) {padding-right: 0;}
-
-footer {
- width:100%;
- margin : 0 auto;
- background: #f4f4f4;
- padding: 50px 0 10px;
-}
-.footer {
-    width:1000px;
-    margin: 0 auto;
-    text-align: center;
-}
-.copy {font-size: 15px;}
