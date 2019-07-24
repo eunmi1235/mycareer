@@ -3,6 +3,8 @@
 	margin: 0;
 }
 
+
+
 .no-padding {
 	padding: 0;
 }
@@ -14,9 +16,13 @@ header {
 	left:0;
 	right:0;
 	width:100%;
-	background:#FFF;
-	height:50px;
+	background-color: #fff;
+	height:80px;
 	z-index:9999;
+    display: block;
+    overflow: hidden;
+    clear: both;
+    float: left;
 }
 
 header.scrolled {
@@ -29,6 +35,7 @@ header nav {
 	height:0px;
 	position:relative;
     padding-right:100px;
+    
 }
 
 
@@ -46,9 +53,9 @@ a.grt-logo{
 	display:inline-block;
     }
 a.grt-logo img {
-    margin-top: 7px;
-	max-height: 50px;
-    width:150px;
+    margin-top: 20px;
+	max-height: 70px;
+    width:170px;
     padding-left:15px;    
 }
 
@@ -68,7 +75,7 @@ a.grt-logo img {
 ul.grt-menu {
 	display: block;
 	float:right;
-	margin:8px -10px 0 0;
+	margin:25px 0 0 0;
 	padding:0;
 	list-style-type: none;
 }
