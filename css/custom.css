@@ -3,7 +3,7 @@ body
 {
     margin: 0;
     padding: 0;
-    min-width: 1600px;
+    min-width: 1000px;
 }
 .slideshow {
     width: 100%;
@@ -65,6 +65,7 @@ footer {
     margin: 0 auto;
     position: relative;
     height: 200px;
+	top: 55px;
     text-align: center;
     line-height: 200px;
 }
