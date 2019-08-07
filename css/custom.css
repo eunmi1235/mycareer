@@ -38,7 +38,7 @@ img {
     position: relative;
     display: block;
     clear: both;
-    top: 80px;
+    top: 55px;
     left: 0;
     bottom: 0;
     float: left;
@@ -56,7 +56,11 @@ img {
     margin:0 auto;
     background-color: #f4f4f4;
 }
-.clear {clear: both;
+.clearfix:before {
+	content: "";
+	display: block;
+	clear: both;
+	overflow: hidden;
 }
 
 footer {
